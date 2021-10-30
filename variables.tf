@@ -4,11 +4,6 @@ variable "aws_region" {
   #replace the region as suits for your requirement
 }
 
-variable "shared_credentials_file" {
-  default = "C:\\Users\\aleks\\.aws\\credentials"
-  description = "Credentials"
-}
-
 variable "az_count" {
   default     = "2"
   description = "number of availability zones in above region"
