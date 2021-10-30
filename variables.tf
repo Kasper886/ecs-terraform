@@ -15,7 +15,7 @@ variable "ecs_task_execution_role" {
 }
 
 variable "app_image" {
-  default     = "122734987158.dkr.ecr.us-west-2.amazonaws.com/webapp:v1"
+  default     = "YOUR_IMAGE_HERE"
   description = "docker image to run in this ECS cluster"
 }
 
