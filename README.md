@@ -4,6 +4,7 @@ This repo creates AWS ECS fargate cluster with a simple web application, that wo
 
 ## Usage
 You need credentials to your AWS account and terraform on board.
+Also, go to var.tf file and add your docker image in variable "app_image".
 
 Then just run the following commands:
 ```
