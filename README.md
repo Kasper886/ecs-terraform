@@ -1,6 +1,6 @@
 # AWS Elastic Container Service cluster creation
 
-This repo creates AWS ECS fargate cluster with a simple web application, that works throw 80 and 443 ports (redirect from http to https protocol).
+This repo creates AWS ECS fargate cluster with a simple web application, that works through 80 and 443 ports (redirect from http to https protocol).
 
 ## Usage
 You need credentials to your AWS account and terraform on board.
